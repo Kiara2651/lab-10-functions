@@ -1,14 +1,19 @@
 <html>
 <body>
 <script>
-for(var r=1; r<=5; r=r+1){
-	console.log("R=" +r);
-	for (var s=1; s<=r; s=s+1){
-		console.log("S=" + s);
+function factorial(n) {
+	for (i=(n-1); i>0; i=i-1){
+		n=n*i
 	}
-	console.log("________")
+	return (n)
 
-}
+
+	}
+	console.log factorial(n)
+var num = prompt("give me a number");
+var num_num= parseInt(input,10)
+var ans =factorial(num_num);
+console.log(ans);
 </script>
 </body>
 </html>
